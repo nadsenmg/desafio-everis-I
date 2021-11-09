@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @Data
 public class CategoryDTO {
 
-    private int posicaoLista;
+    private Long id;
 }
