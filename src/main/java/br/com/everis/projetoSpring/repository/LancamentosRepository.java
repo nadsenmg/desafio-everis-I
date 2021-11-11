@@ -9,6 +9,6 @@ import java.util.List;
 
 @Repository
 public interface LancamentosRepository extends JpaRepository<Lancamentos, Long>{
-    Lancamentos findByCategoryId(long categoryId);
     List<Lancamentos> findByPaid(Boolean paid);
+    Lancamentos findByCategoryId(Long id);
 }
